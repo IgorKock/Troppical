@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="https://raw.githubusercontent.com/kleidis/Troppical/refs/heads/master/icons/assets/Troppical.svg" alt="Troppical" width="188"/>
+  <img src="https://raw.githubusercontent.com/IgorKock/Troppical/refs/heads/master/icons/assets/Troppical.svg" alt="Troppical" width="188"/>
 </p>
 <p align="center" style="font-size:144px;">
   <strong>Troppical</strong>
@@ -34,7 +34,7 @@ Download and open `Troppical.exe` :3
 ### Clone the repo
 
 ```
-git clone https://github.com/kleidis/Troppical.git
+git clone https://github.com/IgorKock/Troppical.git
 ```
 ### Install dependencies:
 
