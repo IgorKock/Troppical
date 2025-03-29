@@ -10,22 +10,31 @@ from init_instances import inst
 class Updater:
     def check_for_update(self):
         currentVersion = version
-        update = inst.online.get_git_tag()[0]
+        git_tag_result = inst.online.get_git_tag()
 
-        if update > currentVersion:
-            reply = QMessageBox.question(None, "Update Available",
-                f"Version {update} is available. Current version is {currentVersion}. Would you like to update?",
-                QMessageBox.StandardButton.Yes | QMessageBox.StandardButton.No)
+        if git_tag_result is not None:
+            update = git_tag_result[0]
 
-            if reply == QMessageBox.StandardButton.Yes:
-                return self.download_update()
+            if update > currentVersion:
+                reply = QMessageBox.question(None, "Update Available",
+                    f"Version {update} is available. Current version is {currentVersion}. Would you like to update?",
+                    QMessageBox.StandardButton.Yes | QMessageBox.StandardButton.No)
+
+                if reply == QMessageBox.StandardButton.Yes:
+                    return self.download_update()
+                return False
             return False
-        return False
+        else:
+            QMessageBox.critical(None, "Error", "Failed to check for updates.")
+            return False
 
-    def download_update(self):
-        try:
+    # updater.py (linha 69 em diante)
+def download_update(self):
+    try:
+        git_tag_result = inst.online.get_git_tag()
 
-            assets = inst.online.get_git_tag()[1]
+        if git_tag_result is not None:
+            assets = git_tag_result[1]
             exeAsset = next((asset for asset in assets if asset['name'] == 'troppical.exe'), None)
 
             if not exeAsset:
@@ -58,10 +67,13 @@ class Updater:
                 return False
 
             return True
-
-        except Exception as e:
-            QMessageBox.critical(None, "Error", f"Update failed: {e}")
+        else:
+            QMessageBox.critical(None, "Error", "Failed to retrieve update information.")
             return False
+
+    except Exception as e:
+        QMessageBox.critical(None, "Error", f"Update failed: {e}")
+        return False
 
     def finish_update(self):
         try:

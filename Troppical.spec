@@ -7,7 +7,8 @@ a = Analysis(
     datas=[
         ('icons/assets/Troppical.ico', '.'),
     ],
-    hiddenimports=['version'],
+    hiddenimports=['version, network, network.updater'],
+	collect_submodules=['network'],
     hookspath=['hooks'],
     hooksconfig={},
     runtime_hooks=[],
@@ -24,7 +25,7 @@ exe = EXE(
     a.datas,
     [],
     name='Troppical',
-    debug=False,
+    debug=True,
     bootloader_ignore_signals=False,
     strip=False,
     upx=True,
@@ -38,3 +39,6 @@ exe = EXE(
     entitlements_file=None,
     icon='icons/assets/troppical.ico'
 )
+#adicionar verificação de arquivos.
+import os
+print(os.listdir('.'))

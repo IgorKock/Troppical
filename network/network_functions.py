@@ -9,7 +9,8 @@ from init_instances import inst
 import sys
 
 class Online():
-    databaseUrl = "https://raw.githubusercontent.com/kleidis/Troppical/refs/heads/master/network/troppical-database.json"
+    'databaseUrl = "https://raw.githubusercontent.com/kleidis/Troppical/refs/heads/master/network/troppical-database.json"'
+    databaseUrl = "https://raw.githubusercontent.com/IgorKock/Troppical/refs/heads/master/network/troppical-database.json"
 
     def __init__(self):
         self.troppicalDatabase = self.fetch_data() # Fetch the data from troppical_dataabse JSON
@@ -26,7 +27,7 @@ class Online():
 
     # Fetch and process the main icon of Troppical. Only used by the UI header
     def fetch_and_process_main_icon(self):
-        self.mainLogoUrl = "https://raw.githubusercontent.com/kleidis/Troppical/refs/heads/master/icons/assets/Troppical.svg"
+        self.mainLogoUrl = "https://raw.githubusercontent.com/BlurrySquire/Troppical/710e60a32e46f173962125ab8f7d5e22d6e382d1/icons/assets/Troppical.svg"
 
         response = requests.get(self.mainLogoUrl)
         if response.status_code == 200:
@@ -51,7 +52,8 @@ class Online():
         return self.logos
 
     def get_git_tag(self):
-        home_url = "https://api.github.com/repos/kleidis/Troppical/releases/latest"
+        'home_url = "https://api.github.com/repos/kleidis/Troppical/releases/latest"'
+        home_url = "https://api.github.com/repos/BlurrySquire/Troppical/releases/latest"
         try:
             response = requests.get(home_url)
             if response.status_code == 200:
