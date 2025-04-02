@@ -15,7 +15,7 @@ Troppical is a simple Windows program that lets you manage your emulators with a
 
 ## Usage
 
-Download and open `Troppical.exe` :3 
+Download and open `Troppical.exe`
    - **The app has an updater which should update and replace the exe with new versions**
 
 
