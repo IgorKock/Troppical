@@ -392,6 +392,20 @@
     "is_from_github": false
   },
   {
+     "emulator_name": "Sudachi",
+     "emulator_logo": "https://raw.githubusercontent.com/IgorKock/Troppical/master/network/assets/placeholder.png",
+     "emulator_desc": "A Nintendo Switch emulator",
+     "emulator_owner": "emuplace",
+     "emulator_repo": "sudachi.emuplace.app",
+     "emulator_artifact_name": "",
+     "emulator_platform": "multi",
+     "emulator_package": "",
+     "emulator_system": "Switch",
+     "exe_path": "sudachi.exe",
+     "has_in_app_updater": true,
+     "is_from_github": true
+  },
+  {
     "emulator_name": "Ryujinx",
     "emulator_logo": "https://raw.githubusercontent.com/IgorKock/Troppical/master/network/assets/ryujinx.png",
     "emulator_desc": "A Nintendo Switch emulator",
