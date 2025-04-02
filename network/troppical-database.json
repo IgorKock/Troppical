@@ -41,6 +41,20 @@
     "has_in_app_updater": false,
     "is_from_github": true
   },
+    {
+    "emulator_name": "Azahar",
+    "emulator_logo": "https://raw.githubusercontent.com/IgorKock/Troppical/master/network/assets/azahar.png",
+    "emulator_desc": "An open-source 3DS emulator project based on Citra.",
+    "emulator_owner": "azahar-emu",
+    "emulator_repo": "azahar",
+    "emulator_artifact_name": "null.apk",
+    "emulator_platform": "multi",
+    "emulator_package": "org.citra.citra_emu",
+    "emulator_system": "3DS",
+    "exe_path": "azahar.exe",
+    "has_in_app_updater": false,
+    "is_from_github": true
+  },
   {
     "emulator_name": "PabloMK7's Citra (Discontinued)",
     "emulator_logo": "https://raw.githubusercontent.com/IgorKock/Troppical/master/network/assets/citra.png",
@@ -360,6 +374,20 @@
     "emulator_package": "",
     "emulator_system": "Wii U",
     "exe_path": "cemu.exe",
+    "has_in_app_updater": true,
+    "is_from_github": true
+  },
+    {
+    "emulator_name": "Sudachi",
+    "emulator_logo": "https://raw.githubusercontent.com/IgorKock/Troppical/master/network/assets/placeholder.png",
+    "emulator_desc": "A Nintendo Switch emulator",
+    "emulator_owner": "emuplace",
+    "emulator_repo": "sudachi.emuplace.app",
+    "emulator_artifact_name": "",
+    "emulator_platform": "multi",
+    "emulator_package": "",
+    "emulator_system": "Switch",
+    "exe_path": "sudachi.exe",
     "has_in_app_updater": true,
     "is_from_github": true
   },
