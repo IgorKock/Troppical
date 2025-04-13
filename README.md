@@ -31,7 +31,7 @@ git clone https://github.com/IgorKock/Troppical.git
 ### Install dependencies:
 
 ```
-pip install  -r requirements.txt
+pip install -r requirements.txt
 ```
 ### Compile:
 ```
