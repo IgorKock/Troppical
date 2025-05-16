@@ -417,7 +417,22 @@
     "emulator_system": "Switch",
     "exe_path": "Ryujinx.exe",
     "has_in_app_updater": true,
-    "is_from_github": true
+    "is_from_github": false
+}
+
+  {
+    "emulator_name": "Kenji-NX",
+    "emulator_logo": "https://raw.githubusercontent.com/IgorKock/Troppical/master/network/assets/kenjinx.png",
+    "emulator_desc": "A Nintendo Switch emulator",
+    "emulator_owner": "Kenji-NX",
+    "emulator_repo": "Kenji-NX",
+    "emulator_artifact_name": "",
+    "emulator_platform": "pc",
+    "emulator_package": "",
+    "emulator_system": "Switch",
+    "exe_path": "Ryujinx.exe",
+    "has_in_app_updater": true,
+    "is_from_github": false
 }
 
 ]
