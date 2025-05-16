@@ -395,8 +395,8 @@
     "emulator_name": "Citron",
     "emulator_logo": "https://raw.githubusercontent.com/IgorKock/Troppical/master/network/assets/citron.svg",
     "emulator_desc": "A Nintendo Switch emulator",
-    "emulator_owner": "Citron",
-    "emulator_repo": "Citron",
+    "emulator_owner": "citron",
+    "emulator_repo": "emu",
     "emulator_artifact_name": "",
     "emulator_platform": "multi",
     "emulator_package": "",
@@ -416,7 +416,7 @@
     "emulator_package": "",
     "emulator_system": "Switch",
     "exe_path": "Ryujinx.exe",
-    "has_in_app_updater": true,
+    "has_in_app_updater": false,
     "is_from_github": false
 },
 
