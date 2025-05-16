@@ -432,7 +432,7 @@
     "emulator_system": "Switch",
     "exe_path": "Ryujinx.exe",
     "has_in_app_updater": true,
-    "is_from_github": false
+    "is_from_github": true
 }
 
 ]
