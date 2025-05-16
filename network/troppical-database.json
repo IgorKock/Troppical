@@ -410,7 +410,7 @@
     "emulator_logo": "https://raw.githubusercontent.com/IgorKock/Troppical/master/network/assets/ryujinx.png",
     "emulator_desc": "A Nintendo Switch emulator",
     "emulator_owner": "ryubing",
-    "emulator_repo": "Ryujinx",
+    "emulator_repo": "ryujinx",
     "emulator_artifact_name": "",
     "emulator_platform": "pc",
     "emulator_package": "",
