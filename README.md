@@ -41,7 +41,7 @@ pyinstaller Troppical.spec
 
 **We welcome anyone to contribute to this project as long as you know **some** Python and test your changes properly**
 
-- For any ideas on what to do, you can ask over on discussions or check th milestones
+- For any ideas on what to do, you can ask over on discussions or check the milestones
 
 
 
