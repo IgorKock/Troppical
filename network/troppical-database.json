@@ -425,7 +425,7 @@
     "emulator_logo": "https://raw.githubusercontent.com/IgorKock/Troppical/master/network/assets/kenjins.png",
     "emulator_desc": "A Nintendo Switch emulator",
     "emulator_owner": "Kenji-NX",
-    "emulator_repo": "Kenji-NX",
+    "emulator_repo": "Releases",
     "emulator_artifact_name": "",
     "emulator_platform": "pc",
     "emulator_package": "",
