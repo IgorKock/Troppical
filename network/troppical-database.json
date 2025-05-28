@@ -418,7 +418,7 @@
     "exe_path": "Ryujinx.exe",
     "has_in_app_updater": true,
     "is_from_github": true
-},
+}
 
   {
     "emulator_name": "Kenji-NX",
