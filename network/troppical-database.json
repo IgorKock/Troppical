@@ -294,6 +294,20 @@
     "is_from_github": true
   },
   {
+    "emulator_name": "shadPS4Plus",
+    "emulator_logo": "https://raw.githubusercontent.com/IgorKock/Troppical/master/network/assets/shadps4.png",
+    "emulator_desc": "A ford of shadPS4 that restores PKG support",
+    "emulator_owner": "AzaharPlus",
+    "emulator_repo": "shadPS4Plus",
+    "emulator_artifact_name": "",
+    "emulator_platform": "pc",
+    "emulator_package": "",
+    "emulator_system": "PS4",
+    "exe_path": "shadps4.exe",
+    "has_in_app_updater": false,
+    "is_from_github": true
+  },
+  {
     "emulator_name": "NanoBoyAdvance",
     "emulator_logo": "https://raw.githubusercontent.com/IgorKock/Troppical/master/network/assets/nanoboyadvance.png",
     "emulator_desc": "A cycle-accurate Nintendo Game Boy Advance emulator.",
