@@ -419,7 +419,6 @@
     "has_in_app_updater": true,
     "is_from_github": true
 },
-
   {
     "emulator_name": "Kenji-NX",
     "emulator_logo": "https://raw.githubusercontent.com/IgorKock/Troppical/master/network/assets/kenjinx.png",
