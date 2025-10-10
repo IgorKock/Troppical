@@ -1,7 +1,7 @@
 [
   {
     "emulator_name": "Supermodel 3",
-    "emulator_logo": "https://raw.githubusercontent.com/IgorKock/Troppical/master/network/assets/placeholder.png",
+    "emulator_logo": "https://raw.githubusercontent.com/IgorKock/Troppical/master/network/assets/model3.png",
     "emulator_desc": "Sega Model 3 arcade emulator.",
     "emulator_owner": "trzy",
     "emulator_repo": "Supermodel",
