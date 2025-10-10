@@ -1,5 +1,19 @@
 [
   {
+    "emulator_name": "Supermodel 3",
+    "emulator_logo": "https://raw.githubusercontent.com/IgorKock/Troppical/master/network/assets/placeholder.png",
+    "emulator_desc": "Sega Model 3 arcade emulator.",
+    "emulator_owner": "trzy",
+    "emulator_repo": "Supermodel",
+    "emulator_artifact_name": "null.apk",
+    "emulator_platform": "multi",
+	"emulator_package": "org.citra.citra_emu",
+    "emulator_system": "Arcade",
+    "exe_path": "supermodel.exe",
+    "has_in_app_updater": false,
+    "is_from_github": true
+  },
+  {
     "emulator_name": "Borked3DS",
     "emulator_logo": "https://raw.githubusercontent.com/IgorKock/Troppical/master/network/assets/borked3ds.png",
     "emulator_desc": "An experimental Nintendo 3DS Emulator based off of Citra.",
