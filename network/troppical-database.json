@@ -422,9 +422,9 @@
   {
     "emulator_name": "Citron",
     "emulator_logo": "https://raw.githubusercontent.com/IgorKock/Troppical/master/network/assets/citron.svg",
-    "emulator_desc": "A Nintendo Switch emulator",
+    "emulator_desc": "The most advanced Nintendo Switch emulator",
     "emulator_owner": "citron",
-    "emulator_repo": "emu",
+    "emulator_repo": "emulator",
     "emulator_artifact_name": "",
     "emulator_platform": "multi",
     "emulator_package": "",
@@ -434,19 +434,33 @@
     "is_from_github": false
   },
   {
+    "emulator_name": "Eden",
+    "emulator_logo": "https://raw.githubusercontent.com/IgorKock/Troppical/master/network/assets/eden.png",
+    "emulator_desc": "A new yuzu fork meant to properly continue work on the emulator",
+    "emulator_owner": "eden-emulator",
+    "emulator_repo": "Releases",
+    "emulator_artifact_name": "",
+    "emulator_platform": "multi",
+    "emulator_package": "",
+    "emulator_system": "Switch",
+    "exe_path": "eden.exe",
+    "has_in_app_updater": true,
+    "is_from_github": false
+  },
+  {
     "emulator_name": "Ryubing",
     "emulator_logo": "https://raw.githubusercontent.com/IgorKock/Troppical/master/network/assets/ryujinx.png",
     "emulator_desc": "A Nintendo Switch emulator",
-    "emulator_owner": "Ryubing",
-    "emulator_repo": "Stable-Releases",
+    "emulator_owner": "ryubing",
+    "emulator_repo": "ryujinx",
     "emulator_artifact_name": "",
     "emulator_platform": "pc",
     "emulator_package": "",
     "emulator_system": "Switch",
     "exe_path": "Ryujinx.exe",
     "has_in_app_updater": true,
-    "is_from_github": true
-	},
+    "is_from_github": false
+  },
   {
     "emulator_name": "Kenji-NX",
     "emulator_logo": "https://raw.githubusercontent.com/IgorKock/Troppical/master/network/assets/kenjins.png",
