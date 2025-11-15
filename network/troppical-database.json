@@ -448,7 +448,7 @@
     "is_from_github": false
   },
   {
-    "emulator_name": "Ryubing",
+    "emulator_name": "Ryujinx",
     "emulator_logo": "https://raw.githubusercontent.com/IgorKock/Troppical/master/network/assets/ryujinx.png",
     "emulator_desc": "A Nintendo Switch emulator",
     "emulator_owner": "ryubing",
