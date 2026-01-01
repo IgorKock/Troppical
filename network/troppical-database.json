@@ -290,7 +290,7 @@
     "emulator_package": "",
     "emulator_system": "Xbox",
     "exe_path": "xemu.exe",
-    "has_in_app_updater": false,
+    "has_in_app_updater": true,
     "is_from_github": true
   },
   {
