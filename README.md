@@ -10,7 +10,8 @@
 Troppical is a simple Windows program that lets you manage your emulators with an easy installation and updating process.
 
 > [!WARNING]
-> Windows Defender might detect this application as a trojan/malware. This is not true at all, you can look at the source code and determine that it is not a valid claim,  the app isn't that complex.**
+> Windows Defender might detect this application as a trojan/malware. This is not true at all, you can look at the source code and determine that it is not a valid claim,  the app isn't that complex.
+
 > Please don't open an issue for this since there is nothing I can do apart from signing the app which I won't do
 
 ## Usage
