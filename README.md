@@ -21,6 +21,13 @@ Download and open `Troppical.exe`
 
 ```Although Troppical is portable that doesn't mean the emulators are. For now, there is no way to move an emulator directory once it is installed. If you do so, Troppical will just install updates on the directory that you initially chose to install the respective emulator on. The Uninstall button will error out and prompt you to reinstall as well```
 
+## Screenshots
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/2a8e078b-b432-4e9e-a729-657b73d2e48b" alt="Screenshot 1" width="300"/>
+  <img src="https://github.com/user-attachments/assets/340b6412-8006-461c-8730-4bf6b86e6666" alt="Screenshot 2" width="300"/>
+</p>
+
 # Building for Windows
 
 ### Clone the repo
