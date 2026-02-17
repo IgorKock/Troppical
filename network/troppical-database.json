@@ -420,7 +420,6 @@
     "is_from_github": true
   },
   {
-  {
     "emulator_name": "Eden",
     "emulator_logo": "https://raw.githubusercontent.com/IgorKock/Troppical/master/network/assets/eden.png",
     "emulator_desc": "A new yuzu fork meant to properly continue work on the emulator",
