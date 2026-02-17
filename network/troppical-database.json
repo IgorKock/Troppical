@@ -5,9 +5,9 @@
     "emulator_desc": "Sega Model 3 arcade emulator.",
     "emulator_owner": "trzy",
     "emulator_repo": "Supermodel",
-    "emulator_artifact_name": "null.apk",
-    "emulator_platform": "multi",
-	"emulator_package": "org.citra.citra_emu",
+    "emulator_artifact_name": "",
+    "emulator_platform": "pc",
+	"emulator_package": "",
     "emulator_system": "Arcade",
     "exe_path": "supermodel.exe",
     "has_in_app_updater": false,
@@ -420,19 +420,6 @@
     "is_from_github": true
   },
   {
-    "emulator_name": "Citron",
-    "emulator_logo": "https://raw.githubusercontent.com/IgorKock/Troppical/master/network/assets/citron.svg",
-    "emulator_desc": "The most advanced Nintendo Switch emulator",
-    "emulator_owner": "citron",
-    "emulator_repo": "emulator",
-    "emulator_artifact_name": "",
-    "emulator_platform": "multi",
-    "emulator_package": "",
-    "emulator_system": "Switch",
-    "exe_path": "citron.exe",
-    "has_in_app_updater": true,
-    "is_from_github": false
-  },
   {
     "emulator_name": "Eden",
     "emulator_logo": "https://raw.githubusercontent.com/IgorKock/Troppical/master/network/assets/eden.png",
@@ -460,20 +447,6 @@
     "exe_path": "Ryujinx.exe",
     "has_in_app_updater": false,
     "is_from_github": false
-  },
-  {
-    "emulator_name": "Kenji-NX",
-    "emulator_logo": "https://raw.githubusercontent.com/IgorKock/Troppical/master/network/assets/kenjins.png",
-    "emulator_desc": "A Nintendo Switch emulator",
-    "emulator_owner": "Kenji-NX",
-    "emulator_repo": "Releases",
-    "emulator_artifact_name": "",
-    "emulator_platform": "pc",
-    "emulator_package": "",
-    "emulator_system": "Switch",
-    "exe_path": "Ryujinx.exe",
-    "has_in_app_updater": true,
-    "is_from_github": true
-}
+  }
 
 ]
